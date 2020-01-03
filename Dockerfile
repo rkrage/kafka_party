@@ -16,4 +16,4 @@ RUN rm -rf *
 
 ENV PATH "/code/bin:$PATH"
 
-CMD /bin/sleep infinity
+CMD rm Gemfile.lock && bundle && sleep infinity
