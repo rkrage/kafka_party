@@ -2,17 +2,17 @@
 
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "kafka_styx/version"
+require "kafka_party/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "kafka_styx"
-  spec.version       = KafkaStyx::VERSION
+  spec.name          = "kafka_party"
+  spec.version       = KafkaParty::VERSION
   spec.authors       = ["Ryan Krage"]
   spec.email         = ["krage.ryan@gmail.com"]
 
-  spec.summary       = %q{Utility for reporting Kafka time-based lag metrics}
-  spec.description   = %q{Utility for reporting Kafka time-based lag metrics}
-  spec.homepage      = "https://github.com/rkrage/kafka_styx"
+  spec.summary       = %q{Utility for reporting time-based lag metrics for Kafka}
+  spec.description   = %q{Utility for reporting time-based lag metrics for Kafka}
+  spec.homepage      = "https://github.com/rkrage/kafka_party"
   spec.license       = "MIT"
 
   spec.metadata["homepage_uri"] = spec.homepage

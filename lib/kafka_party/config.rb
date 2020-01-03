@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module KafkaStyx
+module KafkaParty
   class Config
     attr_accessor \
       :bootstrap_servers

@@ -2,10 +2,10 @@
 
 require "kafka"
 
-require "kafka_styx/version"
-require "kafka_styx/config"
+require "kafka_party/version"
+require "kafka_party/config"
 
-module KafkaStyx
+module KafkaParty
   @config = Config.new
 
   class << self

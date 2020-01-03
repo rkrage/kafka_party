@@ -3,7 +3,7 @@
 # frozen_string_literal: true
 
 require "bundler/setup"
-require "kafka_styx"
+require "kafka_party"
 require "pry-byebug"
 
 Pry.start
